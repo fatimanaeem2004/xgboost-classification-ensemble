@@ -67,7 +67,3 @@ The original notebook was configured for the Kaggle dataset path:
 ```
 
 If running locally, update the train and test file paths before execution.
-
-## Notes
-
-This project is organized as a portfolio-ready version of the original classification workflow. It includes the instructions, reproducible notebook, script version of the modeling pipeline, and final prediction output.
