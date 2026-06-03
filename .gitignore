@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local data and logs
+data/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
