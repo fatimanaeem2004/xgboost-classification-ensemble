@@ -12,23 +12,6 @@ This repository contains a machine learning classification project built around 
 - Validation scoring with ROC AUC and accuracy
 - Final probability predictions exported as a CSV submission
 
-## Repository Structure
-
-```text
-.
-├── docs/
-│   └── Assignment01_Instructions.pdf
-├── notebooks/
-│   └── final-notebook.ipynb
-├── outputs/
-│   └── submission.csv
-├── src/
-│   └── train_xgboost_ensemble.py
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
-
 ## Model Approach
 
 The notebook trains an ensemble of XGBoost binary classifiers. Each model uses a different random seed and slightly varied learning parameters. Validation ROC AUC scores are used as ensemble weights, so stronger models contribute more to the final prediction.
